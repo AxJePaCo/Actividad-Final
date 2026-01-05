@@ -14,7 +14,8 @@ Diseño responsivo.
 
 Botón para intercambiar rápidamente las monedas.
 
-conversor-divisas/
+conversor-divisas
+/
 │
 
 ├── index.html
