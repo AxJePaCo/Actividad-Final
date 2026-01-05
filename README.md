@@ -16,16 +16,27 @@ Botón para intercambiar rápidamente las monedas.
 
 conversor-divisas/
 │
+
 ├── index.html
+
 ├── README.md
+
 │
+
 ├── css/
+
 │   └── styles.css
+
 │
+
 ├── js/
+
 │   └── script.js
+
 │
+
 └── img/
+
     └── divisas.png
 
 
