@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #f5ce52;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0px;
+}
+
+h1 {
+    color: hotpink;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.btn {
+    color: white;
+    background-color: hotpink;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 12px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff4da6;
+    transform: scale(1.1);
+}
+.conversor-icono {
+    width: 120px;
+}
+
+.moneda {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.4s ease, opacity 0.4s;
+}
+
+.moneda.swap {
+    transform: translate(20px) scale(0.95);
+    opacity: 0.6;
+}
+
+.moneda select {
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    appearance: none;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.moneda input {
+    border: 0;
+    font-size: 30px;
+    text-align: right;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.moneda select:focus,
+.moneda input:focus {
+    box-shadow: 0 0 8px hotpink;
+    transform: scale(1.05);
+}
+
+.taza-cambio-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.cambio {
+    color: hotpink;
+    font-size: 15px;
+    padding: 0 10px;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 0.3 ease;
+}
+
+.cambio.activo {
+    opacity: 1;
+    transform: scale(1);
+}
+
+select:focus, input:focus, button:focus {
+    outline: 0;
+}
+
+@media (max-width: 600px) {
+    .moneda input {
+        width: 200px;
+    }
+}
