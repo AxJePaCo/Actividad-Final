@@ -3,15 +3,15 @@ Este proyecto es una aplicaciòn web sencilla que permite convertir valores entr
 
 CARACTERISTICAS:
 
-Conversión entre múltiples divisas internacionales
+Conversión entre múltiples divisas internacionales.
 
-Tasas de cambio actualizadas automáticamente
+Tasas de cambio actualizadas automáticamente.
 
-Interfaz clara, sencilla y fácil de usar
+Interfaz clara, sencilla y fácil de usar.
 
-Diseño responsive (adaptable a dispositivos móviles)
+Diseño responsivo.
 
-Botón para intercambiar rápidamente las monedas
+Botón para intercambiar rápidamente las monedas.
 
 conversor-divisas/
 │
